@@ -1513,7 +1513,7 @@ footer .credits a {
   -o-transform: translateX(10px) translateY(10px) scale(1.3);
   -ms-transform: translateX(10px) translateY(10px) scale(1.3);
   transform: translateX(10px) translateY(10px) scale(1.3);
-  transition: all 1200ms;
+  transition: all 200ms;
 }
 
 #animated-cards .card .service-icon {
