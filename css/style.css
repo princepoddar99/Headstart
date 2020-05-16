@@ -1388,7 +1388,8 @@ footer .credits a {
 }
 .our-team .team-content{ margin-bottom: 30px; }
 .our-team .title{
-    font-size: 22px;
+    /*font-size: 22px;*/
+    font-size: x-large;
     font-weight: 700;
     color: #4e5052;
     letter-spacing: 1px;
@@ -1486,7 +1487,7 @@ footer .credits a {
   -o-transform: scale(1.2);
   -ms-transform: scale(1.2);
   transform: scale(1.2);
-  transition: all 1200ms;
+  transition: all 200ms;
   z-index: 99;
 }
 
