@@ -511,7 +511,8 @@ a:hover {
 }
 
 .navbar-b.navbar-reduce .navbar-toggler span {
-  background-color: #1B1B1B;
+  /*background-color: #1B1B1B;*/
+  background-color: white;
 }
 
 .navbar-b .navbar-brand {
@@ -1527,10 +1528,7 @@ footer .credits a {
 
 
 .zoom:hover{
-    -ms-transform: scale(0.8); /* IE 9 */
-  -webkit-transform: scale(0.8); /* Safari 3-8 */
-  transform: scale(0.8); 
+  color: #ca4828;
 }
-
 
 
