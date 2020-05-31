@@ -1370,7 +1370,7 @@ footer .credits a {
     transition: all 0.3s linear 0s;
 }
 .our-team:hover .pic:after{
-    background:  #FFFF00;
+    background:  #ffc107;
 }
 .our-team .pic img {
     width: 100%;
