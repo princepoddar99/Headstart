@@ -1554,7 +1554,7 @@ footer .credits a {
     transition: all 0.3s linear 0s;
 }
 .our-team:hover .pic:after{
-    background: #7ab92d;
+    background:   #FFFF00;
 }
 .our-team .pic img {
     width: 100%;
@@ -1720,4 +1720,24 @@ footer .credits a {
 	position: inherit;
 }
 
+
+/*Scroll bar start*/
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #0078ff; 
+  border-radius: 10px;
+}
+
+/*Scroll bar end*/
 

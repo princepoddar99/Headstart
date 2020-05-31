@@ -1355,7 +1355,7 @@ footer .credits a {
 }
 .our-team:hover .pic:before{
  height: 100%;
-    background: grey; 
+    background:   #00008B; 
  }
 .our-team .pic:after {
     content: "";
@@ -1370,7 +1370,7 @@ footer .credits a {
     transition: all 0.3s linear 0s;
 }
 .our-team:hover .pic:after{
-    background: #737373;
+    background:  #FFFF00;
 }
 .our-team .pic img {
     width: 100%;
@@ -1531,7 +1531,7 @@ footer .credits a {
   color: #ca4828;
 }
 
-
+/*Scroll bar start*/
 /* width */
 ::-webkit-scrollbar {
   width: 10px;
@@ -1549,3 +1549,4 @@ footer .credits a {
   border-radius: 10px;
 }
 
+/*Scroll bar end*/
