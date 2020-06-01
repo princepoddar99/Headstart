@@ -564,6 +564,8 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  font-family: arial;
+
 }
 
 @media (min-width: 576px) {
@@ -10578,7 +10580,7 @@ footer .credits a {
   display: inline-block;vertical-align: top;
 }
 .styles2{
-  display: inline-block;vertical-align: top;
+  display: inline-block;vertical-align: top;width: 82%;
 }
 .stylist{
   vertical-align: top;width: 100%;
@@ -10603,10 +10605,10 @@ footer .credits a {
  
 
  }
- .stylist2{width: 100%}
+ .stylist2{width: 100%;display: inline-block;}
 
  .component2title{
-  display: inline-block;
+  display: inline-block;width: 100%
  }
 
  .empty{
@@ -10627,4 +10629,57 @@ width: 49%;
   width: 50%;vertical-align: top
  }
 
+ .brief{
+
+  width: 100%;
+ }
+
+ .pagelink{
+
+  width: 100%;padding-left: 70px;border-style: none;box-shadow: transparent;
+ }
+
+ .light-back{
+
+background-color: #f8f9fa;
+
+ }
+
+ .blue{
+
+font-family: arial;
+
+
+ }
+
+ ul.startuplist{
+
+list-style-type: none;
+
+
+ }
+
  
+
+ .pagelink2 {
+  display: inline-block;
+  padding: 5px 5px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: black;
+  background-color: ;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 3px #999;
+}
+
+.pagelink2:hover {background-color: }
+
+.pagelink2:active {
+  background-color: #666;
+  box-shadow: 1px #666;
+  transform: translateY(4px);
+}
