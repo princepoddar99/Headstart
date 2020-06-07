@@ -10577,7 +10577,7 @@ footer .credits a {
 }
 
 .component{
-  display: inline-block;vertical-align: top;
+  display: inline-block;vertical-align: top;padding-right: 10px;
 }
 .styles2{
   display: inline-block;vertical-align: top;width: 82%;
