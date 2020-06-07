@@ -10770,9 +10770,9 @@ list-style-type: none;padding-right: 40px
     width: 100%;
   }
  
- .rightsidemain{
+  .rightsidemain{
 
-     padding-left: 15%;
+     padding-left: 5%;
  }
 
  .styles2{
@@ -10780,6 +10780,14 @@ list-style-type: none;padding-right: 40px
   width: 75%;
  }
 
+
+.styles_component{
+  width: 60%;
+}
+
+
+
+}
 
 
 
