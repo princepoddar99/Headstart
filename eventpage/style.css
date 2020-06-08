@@ -10741,7 +10741,12 @@ list-style-type: none;padding-right: 40px
    right: 0;
  }
 
+.img-responsive{
 
+    display: block;margin-left: auto;margin-right: auto;
+  }
+
+  
 
 
 /*button style end*/
@@ -10770,7 +10775,7 @@ list-style-type: none;padding-right: 40px
     width: 100%;
   }
  
-  .rightsidemain{
+ .rightsidemain{
 
      padding-left: 5%;
  }
@@ -10784,12 +10789,6 @@ list-style-type: none;padding-right: 40px
 .styles_component{
   width: 60%;
 }
-
-
-
-}
-
-
 
 
 
