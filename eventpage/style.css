@@ -15,6 +15,15 @@
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+/*
+  Theme Name: DevFolio
+  Theme URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
+ /*!
+ * Bootstrap v4.1.3 (https://getbootstrap.com/)
+ * Copyright 2011-2018 The Bootstrap Authors
+ * Copyright 2011-2018 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -564,8 +573,6 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-  font-family: arial;
-
 }
 
 @media (min-width: 576px) {
@@ -9040,11 +9047,22 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6;
   }
 }
+
+/* prince bootstrap code end and css code start------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+*/
 /*# sourceMappingURL=bootstrap.css.map */
+/*
+  Theme Name: DevFolio
+  Theme URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
+  Author: BootstrapMade.com
+  License: https://bootstrapmade.com/license/
+*/
 
+/*======================================
+//--//-->   STYLES GENERALES
+======================================*/
 
-/*prince code end*------------------------------------------------------------------------------------------------------------------------------------------------*/
-/*prince css code start ---------------------------------------------------------------------------------------------------------------------------------------------------------*/
 body {
   background-color: #f5f5f5;
   color: #4e4e4e;
@@ -9297,7 +9315,7 @@ a:hover {
   line-height: 1.55;
   margin: 0 auto;
   text-align: center;
-  box-shadow: 0 0 0 10px #0078ff;
+/*  box-shadow: 0 0 0 10px #0078ff;*/
   display: block;
 }
 
@@ -9547,14 +9565,14 @@ a:hover {
 }
 
 .navbar-b.navbar-reduce .navbar-toggler span {
-  background-color: #1B1B1B;
+  /*background-color: #1B1B1B;*/
+  background-color: white;
 }
 
 .navbar-b .navbar-brand {
   color: #fff;
-  /*font-size: 1.6rem;*/
+  font-size: 1.6rem;
   font-weight: 600;
-  font-size: 2rem;
 }
 
 .navbar-b .navbar-nav .dropdown-item.show .dropdown-menu,
@@ -10391,7 +10409,7 @@ footer .credits a {
 }
 .our-team:hover .pic:before{
  height: 100%;
-    background: #2f2f2f; 
+    background: grey; 
  }
 .our-team .pic:after {
     content: "";
@@ -10406,7 +10424,7 @@ footer .credits a {
     transition: all 0.3s linear 0s;
 }
 .our-team:hover .pic:after{
-    background: #7ab92d;
+    background: #737373;
 }
 .our-team .pic img {
     width: 100%;
@@ -10420,12 +10438,13 @@ footer .credits a {
     z-index: 2;
 }
 .our-team:hover .pic img{
-    box-shadow: 0 0 0 14px #f7f5ec;
+    box-shadow: 0 0 0 14px white;
     transform: scale(0.7);
 }
 .our-team .team-content{ margin-bottom: 30px; }
 .our-team .title{
-    font-size: 22px;
+    /*font-size: 22px;*/
+    font-size: x-large;
     font-weight: 700;
     color: #4e5052;
     letter-spacing: 1px;
@@ -10470,7 +10489,7 @@ footer .credits a {
 /* Defult Settings */
 
 #animated-cards .card-header {
-  height: 200px;
+  height: 220px;
   background-color: #ffc107;
 }
 
@@ -10523,7 +10542,7 @@ footer .credits a {
   -o-transform: scale(1.2);
   -ms-transform: scale(1.2);
   transform: scale(1.2);
-  transition: all 1200ms;
+  transition: all 200ms;
   z-index: 99;
 }
 
@@ -10563,10 +10582,28 @@ footer .credits a {
 
 
 .zoom:hover{
-    -ms-transform: scale(0.8); /* IE 9 */
-  -webkit-transform: scale(0.8); /* Safari 3-8 */
-  transform: scale(0.8); 
+  color: #ca4828;
 }
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #0078ff; 
+  border-radius: 10px;
+}
+
+
 /*  prince style.css code end----------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 /* above is copied */
@@ -10794,24 +10831,3 @@ list-style-type: none;padding-right: 40px
 
 
 }
-
-
-/*Scroll bar start*/
-/* width */
-::-webkit-scrollbar {
-  width: 10px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey; 
-  border-radius: 10px;
-}
- 
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #0078ff; 
-  border-radius: 10px;
-}
-
-/*Scroll bar end*/
